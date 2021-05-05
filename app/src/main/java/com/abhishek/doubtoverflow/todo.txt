@@ -1,2 +1,3 @@
-item for doubts, doubts fragment,
-and settings fragment
+layout -> for 4 screens, copy from - https://play.google.com/store/apps/details?id=me.tylerbwong.stack
+
+i'll do -> database set

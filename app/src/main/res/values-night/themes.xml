@@ -12,6 +12,7 @@
         <!-- Status bar color. -->
         <!-- Customize your theme here. -->
     </style>
+
     <style name="TextHeading" parent="TextAppearance.AppCompat.Headline">
         <item name="android:textColor">@color/White</item>
         <item name="android:textStyle">normal</item>
