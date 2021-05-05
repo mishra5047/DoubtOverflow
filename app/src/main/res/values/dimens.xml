@@ -5,4 +5,12 @@
     <dimen name="text_medium">16sp</dimen>
     <dimen name="text_large">20sp</dimen>
     <dimen name="text_xl">22sp</dimen>
+
+    <dimen name="margin_horizontal">20dp</dimen>
+    <dimen name="margin_vertical">30dp</dimen>
+    <dimen name="margin_extra_small">5dp</dimen>
+    <dimen name="margin_vertical_med">20dp</dimen>
+    <dimen name="margin_horizontal_small">10dp</dimen>
+    <dimen name="margin_vertical_small">10dp</dimen>
+
 </resources>
