@@ -1,0 +1,2 @@
+item for doubts, doubts fragment,
+and settings fragment
