@@ -12,4 +12,6 @@
     <string name="filter">Filter</string>
     <string name="questions">Questions</string>
     <string name="question_description">What are the differences between \'git pull' and 'git fetch'</string>
+    <string name="location">Delhi, India</string>
+    <string name="location_icon">location icon</string>
 </resources>
