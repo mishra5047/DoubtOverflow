@@ -7,6 +7,6 @@
     <string name="search">Search</string>
     <string name="profile_pic">profile_pic</string>
     <string name="answer_icon">answer icon</string>
-    <string name="add_filters">+ Add filters</string>
+    <string name="add_filters">Add filters</string>
     <string name="popular_tags">Popular Tags</string>
 </resources>
