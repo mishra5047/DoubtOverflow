@@ -3,6 +3,8 @@
     <string name="question">What do u do?</string>
     <string name="name">Akshay Khare</string>
     <string name="no_of_followers">101k</string>
-    <string name="no_of_answers">354</string>
+    <string name="no_of_answers">354k</string>
     <string name="search">Search</string>
+    <string name="profile_pic">profile_pic</string>
+    <string name="answer_icon">answer icon</string>
 </resources>

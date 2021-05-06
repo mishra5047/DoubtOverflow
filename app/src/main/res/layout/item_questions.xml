@@ -29,7 +29,8 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/profile_pic"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -59,22 +60,15 @@
         android:layout_marginTop="5dp"/>
 
 
-    <androidx.cardview.widget.CardView
+    <ImageView
         android:id="@+id/item_answer_icon"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:background="#28282B"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/item_answer_image"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item_name"
-        android:layout_marginEnd="70dp">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@drawable/item_answer_image"
-            android:backgroundTint="@color/Black"/>
-
-    </androidx.cardview.widget.CardView>
+        android:layout_marginEnd="50dp"
+        android:contentDescription="@string/answer_icon"/>
 
 
     <TextView
