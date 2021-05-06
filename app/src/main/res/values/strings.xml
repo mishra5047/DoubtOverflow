@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">DoubtOverflow</string>
-    <string name="question">What do u do?</string>
+    <string name="question">What is the difference between \'git pull' and 'git fetch'?</string>
     <string name="name">Akshay Khare</string>
     <string name="no_of_followers">101k</string>
     <string name="no_of_answers">354k</string>
@@ -9,4 +9,7 @@
     <string name="answer_icon">answer icon</string>
     <string name="add_filters">Add filters</string>
     <string name="popular_tags">Popular Tags</string>
+    <string name="filter">Filter</string>
+    <string name="questions">Questions</string>
+    <string name="question_description">What are the differences between \'git pull' and 'git fetch'</string>
 </resources>
