@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DoubtOverflow</string>
+    <string name="question">What do u do?</string>
+    <string name="name">Akshay Khare</string>
+    <string name="no_of_followers">101k</string>
+    <string name="no_of_answers">354</string>
+    <string name="search">Search</string>
 </resources>
