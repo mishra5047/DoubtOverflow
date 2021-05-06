@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            app:met_floatingLabelText="User Id"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelTextColor="@color/Black"
+            app:met_primaryColor="@color/Black"
+            app:met_floatingLabelTextSize="@dimen/text_medium"
+            android:layout_marginVertical="5dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/margin_horizontal"
+            android:hint="User Id"
+            android:textColorHighlight="@color/Black"
+            android:id="@+id/idEnter"
+            />
+
+        <LinearLayout
+            android:layout_marginVertical="@dimen/margin_vertical_small"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_horizontal"
+            >
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                app:met_floatingLabelText="Password"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelTextColor="@color/Black"
+                app:met_primaryColor="@color/Black"
+                app:met_floatingLabelTextSize="@dimen/text_medium"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/Black"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:hint="Password"
+                android:textColorHighlight="@color/Black"
+                android:id="@+id/passEnter"
+                />
+
+            <ImageView
+                android:layout_gravity="bottom"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:layout_marginBottom="@dimen/margin_vertical_small"
+                android:layout_marginLeft="-35dp"
+                android:id="@+id/imagePassEnter"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_vertical_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/forgotPassword"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_horizontal"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_medium"
+                android:text="Forgot Password ?"
+                />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:id="@+id/register"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_horizontal"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_medium"
+                android:text="Register"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginVertical="@dimen/margin_vertical_med"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button"
+        android:text="LOGIN"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:id="@+id/loginTxt"
+        android:padding="8dp"
+        android:textColor="@color/Black"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_medium"
+        />
+
+</RelativeLayout>
