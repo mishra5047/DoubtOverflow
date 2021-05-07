@@ -32,6 +32,7 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:scaleType="centerCrop"
+            android:src="@drawable/profile_pic"
             android:contentDescription="@string/profile_pic" />
 
     </androidx.cardview.widget.CardView>
@@ -70,7 +71,15 @@
         android:text="@string/no_of_followers"
         android:layout_marginTop="5dp"/>
 
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_votes"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

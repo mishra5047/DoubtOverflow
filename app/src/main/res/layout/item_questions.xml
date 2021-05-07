@@ -31,6 +31,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:scaleType="centerCrop"
+            android:src="@drawable/profile_pic"
             android:contentDescription="@string/profile_pic" />
 
     </androidx.cardview.widget.CardView>

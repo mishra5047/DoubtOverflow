@@ -14,4 +14,5 @@
     <string name="question_description">What are the differences between \'git pull' and 'git fetch'</string>
     <string name="location">Delhi, India</string>
     <string name="location_icon">location icon</string>
+    <string name="answers">36 Answers</string>
 </resources>
