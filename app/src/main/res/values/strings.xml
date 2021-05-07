@@ -15,4 +15,5 @@
     <string name="location">Delhi, India</string>
     <string name="location_icon">location icon</string>
     <string name="answers">36 Answers</string>
+    <string name="bookmarks">Bookmarks</string>
 </resources>
